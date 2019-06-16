@@ -142,11 +142,11 @@ textarea {
  }
 
  img {
-
+   width: 100%;
  }
 
  figure {
-
+   margin: 0;
  }
 
  address {
@@ -179,6 +179,14 @@ header .content-wrapper {
  align-items: center;
  flex-flow: row wrap;
  margin: 0;
+}
+
+header figure {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
 }
 
 .header-divider {
@@ -250,15 +258,15 @@ footer .copyright{
 /* Hero Area */
 
 .hero-area {
-  display: flex;
-  justify-content: center;
-  flex-flow: row wrap;
   background-image: url("../img/hero-image.jpg"); /* The image used */
   background-color: #333; /* Used if the image is unavailable */
-  height: 500px;
+  min-height: 500px;
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
 }
 
 .hero-area h1 {
@@ -303,14 +311,14 @@ input[type=button] {
 /* Features */
 
 .features {
-  display: flex;
-  justify-content: center;
-  flex-flow: row wrap;
   background-image: url("../img/features-background.jpg"); /* The image used */
-  background-color: #202322; /* Used if the image is unavailable */
+  background-color: #333; /* Used if the image is unavailable */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
 }
 
 .features h2{
@@ -533,7 +541,6 @@ input[type=button] {
   }
 
   header figure {
-    margin-left: 0; /*Not included in solution code*/
     width: 30%;
   }
 
@@ -594,8 +601,12 @@ input[type=button] {
 
   .reviews article{
     display: flex;
-    align-items: flex-start; /*not included in solution but it stopped the image from stretching*/
     justify-content: space-between;
+  }
+
+  .reviews article figure,
+  .reviews article div {
+    width: 49%;
   }
 
   .reviews h2 {
@@ -605,10 +616,6 @@ input[type=button] {
   .reviews h3 {
     width: 75%;
     margin: 0;
-  }
-
-  .reviews article div {
-    width: 49%;
   }
 
   /*Footer*/
@@ -712,6 +719,11 @@ input[type=button] {
   p {
       font-size: 1.125em;
       line-height: 1.333;
+  }
+
+  /*Header*/
+  header figure {
+    justify-content: flex-start;
   }
 
   /* Hero area */
