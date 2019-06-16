@@ -254,7 +254,7 @@ footer .copyright{
   justify-content: center;
   flex-flow: row wrap;
   background-image: url("../img/hero-image.jpg"); /* The image used */
-  background-color: #2a423a; /* Used if the image is unavailable */
+  background-color: #333; /* Used if the image is unavailable */
   height: 500px;
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
