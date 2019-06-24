@@ -135,7 +135,7 @@ textarea {
    font-family: 'Poppins', sans-serif;
    font-size: 1.125em;
    font-weight: 500;
-   margin: 20px 0; /*Why?*/
+   margin: 20px 0;
  }
 
  p {
@@ -228,6 +228,10 @@ footer p {
   margin: 0;
 }
 
+footer h4 {
+  margin-top: 0;
+}
+
 footer .content-wrapper {
   width: 55%;
   margin: 50px 0;
@@ -258,7 +262,7 @@ footer .social-icons p i {
 }
 
 footer .copyright{
-  margin: 20px 0;
+  margin: 0 0 20px 0;
 }
 
 /* --------- Mobile Styles - Homepage ----------------*/
@@ -280,6 +284,7 @@ footer .copyright{
 
 .hero-area h1 {
    font-size: 2.25em;
+   margin-top: 5px;
  }
 
 /* Aside */
@@ -294,6 +299,15 @@ aside {
 
 aside .form{
   margin-top: 30px;
+}
+
+aside h3 {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+aside p {
+  margin: 0;
 }
 
 input[type=text] {
@@ -331,7 +345,7 @@ input[type=button] {
 }
 
 .features h2{
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 
 .features article {
@@ -376,6 +390,10 @@ input[type=button] {
   margin: 20px 0;
 }
 
+.reviews p {
+  margin: 0;
+}
+
 /* ==========================================================================
    About Page
    ========================================================================== */
@@ -386,6 +404,10 @@ input[type=button] {
   align-items: center;
   flex-flow: row wrap;
   background-color: #527158;
+}
+
+.mission p {
+  margin: 20px 0 0 0;
 }
 
 .map figure {
@@ -410,6 +432,10 @@ input[type=button] {
   align-items: center;
   flex-flow: row wrap;
   background-color: #2a423a;
+}
+
+.contact-section h4 {
+  margin: 15px 0;
 }
 
 .contact-content p {
@@ -448,6 +474,11 @@ input[type=button] {
 .faq-content h4 {
   line-height: 1.333;
   font-weight: 700;
+  margin-top: 0;
+}
+
+.faq-content p {
+  margin: 0;
 }
 
 /* ==========================================================================
