@@ -216,7 +216,7 @@ header nav ul {
 }
 
 header nav ul li {
-  font-size: 1.125em; /*Why put this size here as well as in the header nav?*/
+  font-size: 1.125em;
 }
 
 footer {
@@ -566,7 +566,7 @@ input[type=button] {
 
 
 /* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
+   Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
@@ -796,6 +796,7 @@ input[type=button] {
   }
 
   /*Header*/
+
   header figure {
     justify-content: flex-start;
   }
@@ -808,6 +809,7 @@ input[type=button] {
   }
 
   /* Aside */
+
   aside .content-wrapper {
     justify-content: space-around;
   }
@@ -832,6 +834,7 @@ input[type=button] {
   }
 
   /* Reviews */
+  
   .reviews article div {
     width: 42%;
   }
