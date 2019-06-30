@@ -12,9 +12,12 @@
    ========================================================================== */
 
 html {
+  background: #222;
   color: #222;
   font-size: 1em;
   line-height: 1.4;
+  min-height: 100%;
+
 }
 
 /*
@@ -834,7 +837,7 @@ input[type=button] {
   }
 
   /* Reviews */
-  
+
   .reviews article div {
     width: 42%;
   }
