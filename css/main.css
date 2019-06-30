@@ -733,7 +733,7 @@ input[type=button] {
     }
 
     .mission-content p {
-        width: 40%;
+        width: 47%;
     }
 
     .map figure {
@@ -752,6 +752,10 @@ input[type=button] {
 
     .contact-content h4 {
       font-size: 1.5em;
+    }
+
+    .contact-content div {
+        width: 47%;
     }
 
     /* ==========================================================================
